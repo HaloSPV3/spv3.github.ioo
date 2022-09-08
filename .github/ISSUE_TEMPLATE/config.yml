@@ -1,0 +1,19 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Issue with SPV3, the mod for Halo Custom Edition
+    url: https://github.com/HaloSPV3/SPV3-Known-Issues/issues/new/choose
+    about: Please open issues found in-game in HaloSPV3/SPV3-Known-Issues.
+  - name: Issue with Gemini, the SPV3 launcher/installer
+    url:  https://github.com/HaloSPV3/Gemini/issues/new/choose
+    about: Please open issues relating to SPV3s launcher or installer in HaloSPV3/Gemini.
+  - name: Issue with HXE, the Halo EXE-wreapping CLI/backend
+    url:  https://github.com/HaloSPV3/HXE/issues/new/choose
+    about: Please open issues relating to HXE in HaloSPV3/HXE.
+  - name: Issue with AmaiSosu, the OpenSauce installer
+    url:  https://github.com/HaloSPV3/AmaiSosu/issues/new/choose
+    about: Please open issues relating to AmaiSosu in HaloSPV3/AmaiSosu.
+  - name: Issue with SPV3 Discord Rich Presence
+    url: https://github.com/HaloSPV3/HCE.DRP/issues/new/choose
+    about: Please open issues relating to SPV3s Discord Rich Presence in HaloSPV3/HCE.DRP.
+  - name: Issue with OpenSauce, the engine extension for Halo Custom Edition
+    url: https://github.com/yumiris/OpenSauce/issues/new/choose
