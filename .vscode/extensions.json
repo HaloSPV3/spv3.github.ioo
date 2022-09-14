@@ -1,0 +1,8 @@
+{
+    "recommendations": [
+        "kargware.vscode-extension-jekyll-kw",
+        "eliostruyf.vscode-front-matter",
+        "osteele.jekyll",
+        "Hepheir.jekyll-n-hyde"
+    ]
+}
