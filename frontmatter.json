@@ -4,6 +4,10 @@
     {
       "title": "posts",
       "path": "[[workspace]]/_posts"
+    },
+    {
+      "title": "images",
+      "path": "[[workspace]]/resources/images"
     }
   ],
   "frontMatter.content.publicFolder": "assets",
