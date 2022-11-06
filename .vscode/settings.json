@@ -1,12 +1,5 @@
 {
     "frontMatter.framework.id": "jekyll",
-    "frontMatter.content.publicFolder": "assets",
-    "frontMatter.content.pageFolders": [
-        {
-            "title": "posts",
-            "path": "[[workspace]]/_posts"
-        }
-    ],
     "frontMatter.taxonomy.tags": [],
     "frontMatter.taxonomy.categories": [
         " ",
