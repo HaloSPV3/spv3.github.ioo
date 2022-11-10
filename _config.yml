@@ -24,9 +24,9 @@ description: >- # this means to ignore newlines until "baseurl:"
   Official homepage for Single Player Version 3 (SPV3), the overhaul mod for Halo Custom Edition.
   Blogs and links to downloads, social media, and source code can be found from here.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://halospv3.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: halo_legacies
-github_username: halospv3
+github_username: HaloSPV3
 
 # Build settings
 theme: minima
