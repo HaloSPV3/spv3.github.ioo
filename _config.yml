@@ -37,7 +37,8 @@ minima:
     youtube: Masterz1337
 
 # Build settings
-theme: minima
+#theme: minima
+remote_theme: jekyll/minima
 plugins:
   - jekyll-feed
 # Exclude from processing.
