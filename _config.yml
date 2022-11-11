@@ -28,6 +28,14 @@ url: "https://halospv3.github.io" # the base hostname & protocol for your site, 
 twitter_username: halo_legacies
 github_username: HaloSPV3
 
+minima:
+  skin: auto
+  social_links:
+    twitter: halo_legacies
+    github: HaloSPV3
+
+    youtube: Masterz1337
+
 # Build settings
 theme: minima
 plugins:
