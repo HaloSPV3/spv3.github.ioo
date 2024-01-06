@@ -1,0 +1,20 @@
+name: Jekyll Deploy
+
+on: 
+  push:
+    branches:
+      - main
+
+jobs: 
+  build_and_deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4.1.1
+      - uses: actions/cache@v3.3.2
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-gems-
+      - name: Build & Deploy to GitHub Pages
+        uses: gh-pages-jekyll-action@v1.0.2
