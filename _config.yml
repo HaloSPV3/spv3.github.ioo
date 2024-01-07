@@ -15,14 +15,17 @@
 # in the templates via {{ site.myvariable }}.
 
 title: SPV3 for Halo CE
-email: halospv3mod@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Official homepage for Single Player Version 3 (SPV3), the overhaul mod for Halo Custom Edition.
   Blogs and links to downloads, social media, and source code can be found from here.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://halospv3.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: halo_legacies
-github_username: HaloSPV3
+author:
+  name: HaloSPV3
+  email: halospv3mod@gmail.com
+twitter:
+  username: halo_legacies
+  card: summary
 
 minima:
   skin: auto
@@ -36,6 +39,7 @@ markdown: kramdown
 remote_theme: jekyll/minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
