@@ -33,6 +33,10 @@ minima:
     - { platform: twitter, user_url: "https://twitter.com/halo_legacies" }
     - { platform: github, user_url: "https://github.com/HaloSPV3" }
     - { platform: youtube, user_url: "https://youtube.com/Masterz1337" }
+    - {
+        platform: moddb,
+        user_url: "https://www.moddb.com/mods/spv3-for-halo-ce",
+      }
 
 # Build settings
 markdown: kramdown
