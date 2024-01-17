@@ -1,5 +1,16 @@
 source "https://rubygems.org"
 ruby File.read(".ruby-version").strip
+
+=begin 
+`find_spec_for_exe': can't find gem rake (>= 0.a) with executable rake
+(Gem::GemNotFoundException)
+from /opt/hostedtoolcache/Ruby/3.3.0/x64/lib/ruby/3.3.0/rubygems.rb:278:in
+`activate_bin_path'
+	from /opt/hostedtoolcache/Ruby/3.3.0/x64/bin/rake:25:in `<main>'
+=end
+# See https://github.com/protocolbuffers/protobuf/pull/15203
+gem "rake", "~> 13.1.0"
+
 # Hello! This is where you manage which Jekyll version is used to run.
 # When you want to use a different version, change it below, save the
 # file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
