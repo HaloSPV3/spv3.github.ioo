@@ -5,6 +5,11 @@ on:
   workflow_dispatch:
   workflow_call:
 
+outputs:
+  artifact_id:
+    description: "The ID of the artifact that was uploaded."
+    value: ${{ steps.upload-artifact.outputs.artifact-id }}
+
 # Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
 concurrency:
   group: "pages"
@@ -30,3 +35,4 @@ jobs:
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v3
+        id: upload-artifact
