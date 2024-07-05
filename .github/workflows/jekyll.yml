@@ -22,7 +22,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: "./.github/workflows/jekyll-build.yml"
+      - uses: ./.github/workflows/jekyll-build.yml
 
   # Deployment job
   deploy:
