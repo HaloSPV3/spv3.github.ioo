@@ -1,0 +1,16 @@
+name: Build Jekyll Site
+
+on:
+  push:
+    branches: ["!main"]
+  workflow_dispatch:
+
+concurrency:
+  group: "pages"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ./.github/workflows/jekyll-build.yml
