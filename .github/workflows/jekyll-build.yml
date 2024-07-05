@@ -3,6 +3,7 @@ name: Build Jekyll Site
 on:
   push:
   workflow_dispatch:
+  workflow_call:
 
 # Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
 concurrency:
